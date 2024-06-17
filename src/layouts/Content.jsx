@@ -3,6 +3,7 @@ import ItemsCard from "../components/ItemsCard";
 import data from "../data/itemCard.json";
 import TableContent from "../components/TableContent";
 
+
 const Content = () => {
   return (
     <div className="flex flex-col flex-1 bg-[#f4f4f4] py-5 px-8">

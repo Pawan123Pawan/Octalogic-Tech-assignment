@@ -4,10 +4,9 @@ import Content from '../layouts/Content'
 
 const Home = () => {
   return (
-    <div className='flex-1 h-[100vh] flex'>
-        <Sidebar/>
+    <>
         <Content/>
-    </div>
+    </>
   )
 }
 

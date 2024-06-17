@@ -1,0 +1,272 @@
+[
+    {
+      "name": "Classical Guitar",
+      "description": "Guitar classes for beginners",
+      "instructor": "Ms. Jane Doe",
+      "instrument": "Guitar",
+      "dayOfWeek": "Wednesday",
+      "numberOfStudents": 26,
+      "price": "$60",
+      "status": "Active"
+    },
+    {
+      "name": "Jazz Piano",
+      "description": "Learn the basics of jazz piano",
+      "instructor": "Mr. John Smith",
+      "instrument": "Piano",
+      "dayOfWeek": "Monday",
+      "numberOfStudents": 15,
+      "price": "$75",
+      "status": "Closed"
+    },
+    {
+      "name": "Drum Lessons",
+      "description": "Drum classes for all levels",
+      "instructor": "Ms. Anna Brown",
+      "instrument": "Drums",
+      "dayOfWeek": "Tuesday",
+      "numberOfStudents": 10,
+      "price": "$50",
+      "status": "Active"
+    },
+    {
+      "name": "Violin Mastery",
+      "description": "Advanced violin techniques",
+      "instructor": "Mr. Tom White",
+      "instrument": "Violin",
+      "dayOfWeek": "Thursday",
+      "numberOfStudents": 8,
+      "price": "$100",
+      "status": "Archived"
+    },
+    {
+      "name": "Rock Guitar",
+      "description": "Rock guitar for intermediate players",
+      "instructor": "Ms. Lucy Green",
+      "instrument": "Guitar",
+      "dayOfWeek": "Friday",
+      "numberOfStudents": 20,
+      "price": "$80",
+      "status": "Active"
+    },
+    {
+      "name": "Blues Harmonica",
+      "description": "Blues harmonica essentials",
+      "instructor": "Mr. James Gray",
+      "instrument": "Harmonica",
+      "dayOfWeek": "Wednesday",
+      "numberOfStudents": 12,
+      "price": "$40",
+      "status": "Closed"
+    },
+    {
+      "name": "Pop Vocals",
+      "description": "Vocal training for pop singers",
+      "instructor": "Ms. Mary Wilson",
+      "instrument": "Voice",
+      "dayOfWeek": "Monday",
+      "numberOfStudents": 18,
+      "price": "$70",
+      "status": "Active"
+    },
+    {
+      "name": "Saxophone Jazz",
+      "description": "Jazz saxophone techniques",
+      "instructor": "Mr. Robert Johnson",
+      "instrument": "Saxophone",
+      "dayOfWeek": "Tuesday",
+      "numberOfStudents": 9,
+      "price": "$90",
+      "status": "Archived"
+    },
+    {
+      "name": "Classical Piano",
+      "description": "Classical piano for advanced players",
+      "instructor": "Ms. Emily Davis",
+      "instrument": "Piano",
+      "dayOfWeek": "Thursday",
+      "numberOfStudents": 7,
+      "price": "$110",
+      "status": "Active"
+    },
+    {
+      "name": "Electric Bass",
+      "description": "Electric bass for beginners",
+      "instructor": "Mr. Chris Evans",
+      "instrument": "Bass",
+      "dayOfWeek": "Friday",
+      "numberOfStudents": 13,
+      "price": "$65",
+      "status": "Closed"
+    },
+    {
+      "name": "Folk Guitar",
+      "description": "Folk guitar for all levels",
+      "instructor": "Ms. Sara Lee",
+      "instrument": "Guitar",
+      "dayOfWeek": "Monday",
+      "numberOfStudents": 17,
+      "price": "$55",
+      "status": "Active"
+    },
+    {
+      "name": "Opera Singing",
+      "description": "Opera singing techniques",
+      "instructor": "Mr. Daniel King",
+      "instrument": "Voice",
+      "dayOfWeek": "Wednesday",
+      "numberOfStudents": 6,
+      "price": "$120",
+      "status": "Archived"
+    },
+    {
+      "name": "Latin Percussion",
+      "description": "Latin percussion basics",
+      "instructor": "Ms. Nancy Miller",
+      "instrument": "Percussion",
+      "dayOfWeek": "Tuesday",
+      "numberOfStudents": 14,
+      "price": "$50",
+      "status": "Active"
+    },
+    {
+      "name": "Jazz Trumpet",
+      "description": "Jazz trumpet techniques",
+      "instructor": "Mr. Steven Walker",
+      "instrument": "Trumpet",
+      "dayOfWeek": "Thursday",
+      "numberOfStudents": 5,
+      "price": "$85",
+      "status": "Closed"
+    },
+    {
+      "name": "Rock Drumming",
+      "description": "Rock drumming for intermediate players",
+      "instructor": "Ms. Karen Hall",
+      "instrument": "Drums",
+      "dayOfWeek": "Friday",
+      "numberOfStudents": 16,
+      "price": "$75",
+      "status": "Active"
+    },
+    {
+      "name": "Choral Singing",
+      "description": "Choral singing for beginners",
+      "instructor": "Mr. Paul Wright",
+      "instrument": "Voice",
+      "dayOfWeek": "Monday",
+      "numberOfStudents": 22,
+      "price": "$45",
+      "status": "Archived"
+    },
+    {
+      "name": "Country Guitar",
+      "description": "Country guitar techniques",
+      "instructor": "Ms. Laura Young",
+      "instrument": "Guitar",
+      "dayOfWeek": "Wednesday",
+      "numberOfStudents": 19,
+      "price": "$70",
+      "status": "Active"
+    },
+    {
+      "name": "Classical Violin",
+      "description": "Classical violin for all levels",
+      "instructor": "Mr. Kevin Harris",
+      "instrument": "Violin",
+      "dayOfWeek": "Tuesday",
+      "numberOfStudents": 11,
+      "price": "$90",
+      "status": "Closed"
+    },
+    {
+      "name": "Blues Guitar",
+      "description": "Blues guitar techniques",
+      "instructor": "Ms. Olivia Clark",
+      "instrument": "Guitar",
+      "dayOfWeek": "Thursday",
+      "numberOfStudents": 10,
+      "price": "$60",
+      "status": "Active"
+    },
+    {
+      "name": "Folk Singing",
+      "description": "Folk singing basics",
+      "instructor": "Mr. Brian Lewis",
+      "instrument": "Voice",
+      "dayOfWeek": "Friday",
+      "numberOfStudents": 8,
+      "price": "$50",
+      "status": "Archived"
+    },
+    {
+      "name": "Jazz Bass",
+      "description": "Jazz bass for beginners",
+      "instructor": "Ms. Amanda Robinson",
+      "instrument": "Bass",
+      "dayOfWeek": "Monday",
+      "numberOfStudents": 12,
+      "price": "$65",
+      "status": "Closed"
+    },
+    {
+      "name": "Latin Guitar",
+      "description": "Latin guitar techniques",
+      "instructor": "Mr. George Perez",
+      "instrument": "Guitar",
+      "dayOfWeek": "Wednesday",
+      "numberOfStudents": 14,
+      "price": "$80",
+      "status": "Active"
+    },
+    {
+      "name": "Opera Piano",
+      "description": "Opera piano for advanced players",
+      "instructor": "Ms. Patricia Harris",
+      "instrument": "Piano",
+      "dayOfWeek": "Tuesday",
+      "numberOfStudents": 6,
+      "price": "$110",
+      "status": "Archived"
+    },
+    {
+      "name": "Rock Bass",
+      "description": "Rock bass for all levels",
+      "instructor": "Mr. Joshua Martin",
+      "instrument": "Bass",
+      "dayOfWeek": "Thursday",
+      "numberOfStudents": 18,
+      "price": "$75",
+      "status": "Active"
+    },
+    {
+      "name": "Classical Singing",
+      "description": "Classical singing techniques",
+      "instructor": "Ms. Ashley Moore",
+      "instrument": "Voice",
+      "dayOfWeek": "Friday",
+      "numberOfStudents": 9,
+      "price": "$90",
+      "status": "Closed"
+    },
+    {
+      "name": "Jazz Drums",
+      "description": "Jazz drumming for beginners",
+      "instructor": "Mr. David Taylor",
+      "instrument": "Drums",
+      "dayOfWeek": "Monday",
+      "numberOfStudents": 13,
+      "price": "$60",
+      "status": "Active"
+    },
+    {
+      "name": "Folk Violin",
+      "description": "Folk violin basics",
+      "instructor": "Ms. Cynthia Lee",
+      "instrument": "Violin",
+      "dayOfWeek": "Wednesday",
+      "numberOfStudents": 7,
+      "price": "$70",
+      "status": "Archived"
+    }
+]
