@@ -1,22 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import { useSelector } from "react-redux";
 
-const TableContent = ({ title, view }) => {
-  const data = [
-    {
-      enrNo: "1563124",
-      sName: "John Doe",
-      cName: "Percussion",
-      fees: "$120",
-      enrDate: "12-08-223",
-    },
-    // Add more data as needed
-  ];
+const TableContent = () => {
+  const enrolments = useSelector(state => state.enrolment);
+  const [showAll, setShowAll] = useState(false);
+
+  const handleToggleView = () => {
+    setShowAll(!showAll);
+  };
+
+  const displayedEnrolments = showAll ? enrolments : enrolments.slice(0, 5);
 
   return (
     <div className="mt-8 mb-3">
       <div className="flex justify-between">
-        <h1 className="text-xl text-[#83858b] font-semibold">{title}</h1>
-        <p className="text-[#b94891] text-md font-[600] cursor-pointer">{view}</p>
+        <h1 className="text-xl text-[#83858b] font-semibold">LATEST ENROLMENTS</h1>
+        <p 
+          className="text-[#b94891] text-md font-[600] cursor-pointer"
+          onClick={handleToggleView}
+        >
+          {showAll ? "Show Less" : "View All Courses"}
+        </p>
       </div>
       <div className="overflow-x-auto p-5 px-8 mt-4 bg-white rounded-lg">
         <table className="min-w-full">
@@ -30,22 +34,13 @@ const TableContent = ({ title, view }) => {
             </tr>
           </thead>
           <tbody>
-            {data.map((row, index) => (
+            {displayedEnrolments?.map((row, index) => (
               <tr key={index} className="border-b border-gray-200">
                 <td className="py-2 w-[23%]">{row.enrNo}</td>
                 <td className="py-2 w-[23%]">{row.sName}</td>
                 <td className="py-2 w-[23%]">{row.cName}</td>
                 <td className="py-2 w-[23%]">{row.fees}</td>
                 <td className="py-2 text-right w-1/5">{row.enrDate}</td>
-              </tr>
-            ))}
-            {[...Array(5)].map((_, index) => (
-              <tr key={`placeholder-${index}`} className="border-b border-gray-200">
-                <td className="py-2 w-[23%]">column</td>
-                <td className="py-2 w-[23%]">column</td>
-                <td className="py-2 w-[23%]">column</td>
-                <td className="py-2 w-[23%]">column</td>
-                <td className="py-2 text-right w-1/5">column</td>
               </tr>
             ))}
           </tbody>

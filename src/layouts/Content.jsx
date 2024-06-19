@@ -2,6 +2,7 @@ import React from "react";
 import ItemsCard from "../components/ItemsCard";
 import data from "../data/itemCard.json";
 import TableContent from "../components/TableContent";
+import BestStudent from "../components/BestStudent";
 
 
 const Content = () => {
@@ -16,8 +17,8 @@ const Content = () => {
         </div>
       </div>
       <div className="h-[800px] overflow-y-scroll mt-5">
-        <TableContent title={"LATEST ENVIRONMENTS"} view={"View All Courses"} />
-        <TableContent title={"BEST STUDENTS"} view={"View All Students"} />
+        <TableContent />
+        <BestStudent/>
       </div>
     </div>
   );
