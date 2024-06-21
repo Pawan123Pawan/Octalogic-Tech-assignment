@@ -74,7 +74,7 @@ const CourseList = () => {
 
 
   return (
-    <div className="bg-gray-100 flex-1 px-8 py-5 relative">
+    <div className="bg-gray-100 flex-1 px-8 py-5 relative overflow-hidden">
       <h1 className="text-3xl text-[#83858b] font-semibold mb-8">Courses</h1>
       <div className="flex justify-between items-center mb-4">
         <h1 className="text-xl text-gray-500 font-semibold">COURSE LIST</h1>
@@ -89,35 +89,35 @@ const CourseList = () => {
           />
         </div>
       </div>
-      <div className="bg-white rounded-lg shadow-md px-8 overflow-y-scroll h-[60%] pb-10">
-        <table className="min-w-full">
+      <div className="bg-white rounded-lg shadow-md px-8 overflow-x-auto h-[60%] pb-10">
+        <table className="min-w-full table-fixed">
           <thead>
             <tr className="border-b border-gray-200">
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Name
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Description
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Instructor
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Instrument
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Day of Week
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 # of Students
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Price
               </th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900">
+              <th className="py-4 text-left text-sm font-bold text-gray-900 min-w-[120px]">
                 Status
               </th>
-              <th className="py-4 text-right text-sm font-bold text-gray-900">
+              <th className="py-4 text-right text-sm font-bold text-gray-900 min-w-[120px]">
                 Actions
               </th>
             </tr>

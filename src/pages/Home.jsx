@@ -1,13 +1,13 @@
-import React from 'react'
-import Sidebar from '../layouts/Sidebar'
-import Content from '../layouts/Content'
+import React from "react";
+
+import Content from "../layouts/Content";
 
 const Home = () => {
   return (
-    <>
-        <Content/>
-    </>
-  )
-}
+    <div className="w-full h-screen overflow-y-scroll">
+      <Content />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

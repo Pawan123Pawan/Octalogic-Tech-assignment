@@ -23,24 +23,24 @@ const TableContent = () => {
         </p>
       </div>
       <div className="overflow-x-auto p-5 px-8 mt-4 bg-white rounded-lg">
-        <table className="min-w-full">
+        <table className="min-w-full table-fixed">
           <thead>
             <tr className="border-b border-gray-200">
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/5">Enr. No</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/5">S. Name</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/5">C. Name</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/5">Fees</th>
-              <th className="py-2 text-sm font-bold text-gray-900 text-right w-1/5">Enr. Date</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-[20%] min-w-[120px]">Enr. No</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-[20%] min-w-[120px]">S. Name</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-[20%] min-w-[120px]">C. Name</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-[20%] min-w-[120px]">Fees</th>
+              <th className="py-2 text-sm font-bold text-gray-900 text-right w-[20%] min-w-[120px]">Enr. Date</th>
             </tr>
           </thead>
           <tbody>
             {displayedEnrolments?.map((row, index) => (
               <tr key={index} className="border-b border-gray-200">
-                <td className="py-2 w-[23%]">{row.enrNo}</td>
-                <td className="py-2 w-[23%]">{row.sName}</td>
-                <td className="py-2 w-[23%]">{row.cName}</td>
-                <td className="py-2 w-[23%]">{row.fees}</td>
-                <td className="py-2 text-right w-1/5">{row.enrDate}</td>
+                <td className="py-2">{row.enrNo}</td>
+                <td className="py-2">{row.sName}</td>
+                <td className="py-2">{row.cName}</td>
+                <td className="py-2">{row.fees}</td>
+                <td className="py-2 text-right">{row.enrDate}</td>
               </tr>
             ))}
           </tbody>

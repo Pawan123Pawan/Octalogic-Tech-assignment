@@ -23,15 +23,15 @@ const BestStudent = () => {
         </p>
       </div>
       <div className="overflow-x-auto p-5 px-8 mt-4 bg-white rounded-lg">
-        <table className="min-w-full">
+        <table className="min-w-full table-fixed">
           <thead>
             <tr className="border-b border-gray-200">
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6">Reg. No</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6">F. Name</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6">L. Name</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6">Course #</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6">Total Fees</th>
-              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6">Reg. Date</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6 min-w-[120px]">Reg. No</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6 min-w-[120px]">F. Name</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6 min-w-[120px]">L. Name</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6 min-w-[120px]">Course #</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6 min-w-[120px]">Total Fees</th>
+              <th className="py-4 text-left text-sm font-bold text-gray-900 w-1/6 min-w-[120px]">Reg. Date</th>
             </tr>
           </thead>
           <tbody>
